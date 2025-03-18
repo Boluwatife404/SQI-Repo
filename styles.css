@@ -1,5 +1,35 @@
+
 *  {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #0d1117;
+    color: #c9d1d9;
+    text-align: center;
+    padding: 50px;
+    animation: fadeIn 1.5s ease-in-out;
+}
+
+h1 {
+    font-weight: 600;
+    font-size: 2.5rem;
+    animation: slideIn 1.2s ease-in-out;
+}
+
+b {
+    color: #58a6ff;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@keyframes slideIn {
+    from { transform: translateY(-20px); opacity: 0; }
+    to { transform: translateY(0); opacity: 1; }
 }
